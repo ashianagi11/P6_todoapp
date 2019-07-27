@@ -17,3 +17,7 @@ $("ul").on("click", "span", function(e) {
     });
     e.stopPropagation(); //stops the event from bubbling ups
 })
+
+$(".fa-plus").on("click", function() {
+    $("input[type='text']").fadeToggle();
+})
